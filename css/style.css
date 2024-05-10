@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/assets/bg.svg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    gap: 20px;
+}
+.logo img{
+    height: 48px;
+    width: 130px;    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    height: 8vh;
+    width:60vw;
+}
+.list-items{
+    font-size: 1.2rem;
+    color: white;
+}
+.list button{
+    height:6vh;
+    width: 10vw;
+    font-size: 0.8rem;
+}
+/*############## HERO SECTION ##############*/
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:80vh;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    height: 65vh;
+    width: 38vw;
+}
+ .hero-right{
+    height: 65vh;
+    width: 38vw;
+    background-image: url('/assets/30495\ [Converted]-01\(1\).svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-left h1{
+    color: white;
+    padding-top: 1.5rem;    
+    font-size: 3rem;
+}
+.hero-left p{
+    color: white;    
+}
+.hero-left button{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;    
+}
+/*############# OPERATING SYSTEM ##############*/
+.operating-system{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    background-color: white;
+}
+.operating-system .right{
+    height: 65vh;
+    width: 45vw;
+    background-image: url('/assets/Saas\ illustration-01.svg');
+    background-size: cover;
+    background-position: center;
+}
+.operating-system .left{
+    display: flex;
+    flex-direction: column;
+    align-self: center;    
+    gap: 30px;
+    height: 65vh;
+    width: 40vw;
+}
+.ultrafast .customization .contract{
+    height: 15vh;
+}
+/*################ FOOTER ###################*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 70vh;
+    background-color: white;
+}
+.heading{
+    height: 12vh;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 38vh;
+}
+.code, .analytics, .secured, .support{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 15vw;
+    border: 2px solid rgb(175, 174, 174);
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 20px;
+}
+.code-img {
+    height: 13vh;
+    width: 13vh;
+    background-color: pink;
+    border-radius: 50%;
+}
+.analytics-img{
+    height: 13vh;
+    width: 13vh;
+    background-color: rgb(253, 210, 185);
+    border-radius: 50%;
+}
+.secured-img {
+    height: 13vh;
+    width: 13vh;
+    background-color: rgb(180, 248, 216);
+    border-radius: 50%;
+}
+.support-img {
+    height: 13vh;
+    width: 13vh;
+    background-color: rgb(245, 191, 252);
+    border-radius: 50%;
+}
+.code-img img{
+    height: 50px;
+    width: 50px;
+    padding-left: 15px;
+    padding-top:15px;
+}
+.analytics-img img{
+    height: 50px;
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.secured-img img{
+    height: 50px;
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.support-img img{
+    height: 50px;
+    width: 50px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.content{
+    height: 15vh;
+    width: auto;
+    border-radius: 20px;
+    text-align: center;
+    gap: 10px;
+}
+/*############## RESPONSIVENESS ############*/
+@media screen and (max-width:900px){
+    .navbar{
+        justify-content: space-between;
+        align-items: center;
+        gap: 10rem;
+        overflow-x: scroll;
+    }
+    .logo{
+        height: 5vh;
+        width: 12vw;
+    }
+    .logo img{
+        height: 45px;
+        width: 120px;        
+    }
+    .list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        gap: 50px;
+        height: 8vh;
+        width:70vw;
+    }
+    .list-items{
+        font-size: 1.6rem;
+    }
+    .list button{
+        height:5vh;
+        width: 20vw;
+        font-size: 1rem;
+    }
+
+    /*##########HERO SECTION ##########*/
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-self: center;
+        height:90vh;
+    }
+    .hero-left{
+        height: 40vh;
+        width: 65vw;
+    }
+    .hero-right{
+        height: 50vh;
+        width: 70vw;        
+    }
+    .hero-left h1{
+        color: white;
+        padding-top: 1.5rem;        
+        font-size: 2rem;
+    }
+    .hero-left p{
+        color: white;        
+    }
+    .hero-left button{
+        height: 60px;
+        width: 120px;
+        border-radius: 5px;
+        border: none;
+        background-color: blue;
+        color: white;        
+    }
+
+    .operating-system{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100vh;
+        background-color: white;
+    
+    }
+    .operating-system .right{
+        height: 50vh;
+        width: 65vw;
+        background-image: url('/assets/Saas\ illustration-01.svg');
+        background-size: cover;
+        background-position: center;
+        padding-top: 50px;
+    }
+    .operating-system .left{
+        height: 70vh;
+        width: 65vw;
+    }
+
+    /*###########FOOTER############*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        height: 165vh;
+        background-color: white;
+    }
+    .heading{
+        height: 17vh;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 140vh;
+    }
+    .code, .analytics, .secured, .support{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 40vw;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    .code-img img{
+        height: 50px;
+        width: 50px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .analytics-img img{
+        height: 50px;
+        width: 50px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .secured-img img{
+        height: 50px;
+        width: 50px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    .support-img img{
+        height: 50px;
+        width: 50px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }    
+    .content{
+        height: 15vh;
+        width: auto;
+        border-radius: 20px;
+        text-align: center;
+        gap: 10px;        
+    }
+
+}
+
