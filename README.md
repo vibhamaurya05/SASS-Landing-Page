@@ -9,4 +9,4 @@ I created this responsive Business Landing Page project using HTML and CSS, whic
 * And I learned to make the remaining elements and divs responsive as well
 ## Time taken to complete this project
 I took 7 hours to complete it.
-## [Live Link](https://website-name.com](https://sass-landing-page-ashen.vercel.app/) 
+## [Live Link](https://sass-landing-page-ashen.vercel.app/) 
